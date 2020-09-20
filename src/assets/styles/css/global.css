@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background: #07bdbe !important; }
+
+.title {
+  font-size: 20px; }
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background: #07bdbe !important; }
+
+.time-tracking-container {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 64px);
+  font-family: sans-serif; }
+  .time-tracking-container .time-tag-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 15px 0px; }
+    .time-tracking-container .time-tag-container .tag-container > * {
+      margin: 6px; }
+  .time-tracking-container .time-tracker-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-family: sans-serif; }
+    .time-tracking-container .time-tracker-container > * {
+      margin: 10px; }
+    .time-tracking-container .time-tracker-container .action-container > * {
+      margin: 6px; }
+  .time-tracking-container .title-text {
+    font-size: 20px;
+    color: #4c4c4c; }
+  .time-tracking-container .card-container {
+    display: flex;
+    font-family: sans-serif; }
+    .time-tracking-container .card-container > * {
+      margin: 0 10px; }
+    .time-tracking-container .card-container .card-content-wrapper {
+      display: flex;
+      justify-content: space-between; }
+      .time-tracking-container .card-container .card-content-wrapper .card-section > * {
+        margin: 6px; }
+    .time-tracking-container .card-container .card-title {
+      font-size: 16px; }
+    .time-tracking-container .card-container .card-title-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+      .time-tracking-container .card-container .card-title-content .card-content-title {
+        font-weight: 600; }
+
+.filter-dialog .MuiPaper-root {
+  padding: 20px; }
+  .filter-dialog .MuiPaper-root > * {
+    margin-top: 6px; }
