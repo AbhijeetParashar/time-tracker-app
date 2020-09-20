@@ -31,7 +31,7 @@ Create a time-tracking web app using React Js and GraphQL
 
 
 ## Live Demo
-
+https://time-tracking-react-graphql-ap.herokuapp.com/
 
 ## How to run the project in the Local ?
 To run the project in your local, do the following steps :
